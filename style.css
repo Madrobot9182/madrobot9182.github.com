@@ -1,0 +1,226 @@
+#navbar-top {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  z-index: 2;
+}
+
+#navbar-top a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar-top a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; 
+}
+
+.parallax {
+  background-image: url(Un_HQ.jpg);
+
+  min-height: 1000px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.75;
+  position: relative;
+  margin: 0px;
+}
+
+.parallax2 {
+  background-image: url(785762_1.jpg);
+
+  min-height: 600px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.65;
+  position: relative;
+  margin: 0px;
+
+}
+
+.parallax3 {
+  background-image: url(galaxy_earth_network_126341_2560x1080.jpg);
+
+  min-height: 1000px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.65;
+  position: relative;
+  margin: 0px;
+}
+
+.parallax4 {
+  background-image: url(Palais_des_Nations_unies,_à_Genève.jpg);
+
+  min-height: 1100px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.65;
+  position: relative;
+  margin: 0px;
+}
+/*
+.parallax5 {
+  background-image: url(17-CSS_Goey_footer.gif);
+
+  min-height: 26px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.65;
+  position: relative;
+  margin: 0px;
+}
+*/
+.centered {
+  position: absolute;
+  width: 55%;
+  top: 35%;
+  left: 23%;
+  text-align: center;
+  font-size: 100px;
+  color: rgba(91, 146, 229, 1);
+  padding: 5px 5px 5px 5px;
+  background:#242424;
+  z-index: 2;
+}
+
+.centered2 {
+  position: absolute;
+  left: 30%;
+  top: 60%;
+  width:40%;
+  text-align: center;
+  font-size: 30px;
+  color: rgba(91, 146, 229, 1);
+  background:#242424;
+  padding: 5px 5px 5px 5px;
+  z-index: 2;
+}
+
+.centered3 {
+  position: absolute;
+  width: 15%;
+  left: 40%;
+  top: 35%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 22px;
+  z-index: 2;
+  background:#242424;
+  /*
+  box-shadow: 5px 10px;
+  */
+}
+
+.centered4 {
+    position: absolute;
+    width: 15%;
+    left: 40%;
+    top: 45%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    padding: 10px 22px;
+    z-index: 2;
+}
+.centered5 {
+  position: absolute;
+  width: 15%;
+  left: 42%;
+  top: 45%;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  padding: 10px 22px;
+  z-index: 2;
+}
+
+p {
+  margin: 4px 35px;
+  font-family: Calibri;
+  text-align: justify;
+}
+
+li {
+  margin: 2px 3x 5x 3x;
+  font-family:Calibri;
+  text-align:left;
+  font-size:20px;
+  padding-bottom: 25px;
+  padding-left:0px;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Montserrat';
+  min-height: 100%;
+}
+/* background-color:black;text-align:center;color:white;font-size:24px;padding:24px 30%;text-align: justify;*/
+.words {
+  background-color:white;
+  text-align:justify;
+  font-size:18px;
+  padding:24px 30%;
+  font-family: Calibri;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+h1 {
+  font-size: 30px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #373fff;
+  text-align: center;
+  margin-top: 50%;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin-top: 3%;
+}
+
+h3 {
+  font-size:36px;
+  margin-bottom:30px;
+  text-align:center;
+  padding-top:25px;
+}
